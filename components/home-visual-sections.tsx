@@ -36,7 +36,7 @@ const featuredProducts = [
   {
     title: "Agricultural Products",
     subtitle: "Freshness from trusted sources",
-    image: "/products/agriculture.jpg",
+    image: "/products/agriculture.png",
     href: "/products/agricultural-products",
     className: "",
   },

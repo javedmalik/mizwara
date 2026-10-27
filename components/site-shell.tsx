@@ -14,12 +14,19 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { contact, navItems, socialLinks } from "@/lib/site-data";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [dark, setDark] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [showTop, setShowTop] = useState(false);
+
+  const whatsappMessage = encodeURIComponent(
+    "Hello Mizavara Global, I would like to enquire about your products.",
+  );
+
+  const whatsappUrl = `https://wa.me/${contact.whatsapp}?text=${whatsappMessage}`;
 
   useEffect(() => {
     const saved = localStorage.getItem("mizavara-theme");
@@ -210,17 +217,11 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           <Link href="/terms">Terms</Link>
         </div>
       </footer>
-      <a
-        href={contact.whatsapp}
-        className="fixed bottom-5 right-5 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-xl transition hover:-translate-y-1"
-        aria-label="Contact us on WhatsApp"
-      >
-        <MessageCircle size={23} />
-      </a>
+      <WhatsAppButton />
       <button
         type="button"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className={`fixed bottom-20 right-5 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-brand-navy text-white shadow-xl transition-all hover:-translate-y-1 dark:bg-brand-olive ${showTop ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-3 opacity-0"}`}
+        className={`fixed bottom-25 right-5 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-brand-navy text-white shadow-xl transition-all hover:-translate-y-1 dark:bg-brand-olive ${showTop ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-3 opacity-0"}`}
         aria-label="Scroll to top"
       >
         <ArrowUp size={21} />

@@ -22,15 +22,18 @@ export const products = [
     slug: "agricultural-products",
     name: "Agricultural Products",
     description:
-      "Carefully sourced farm produce selected for consistency, freshness and commercial requirements.",
+      "Carefully selected agricultural inputs and products for modern farming requirements.",
     details:
-      "We coordinate agricultural product requirements for wholesale, distribution and export buyers. Product variety, grade, crop season, origin and packing are confirmed for each enquiry.",
+      "We coordinate requirements for agricultural products such as fertilizers, pesticides, plant nutrients and other farming-related products.",
     highlights: [
-      "Buyer-specified grades",
-      "Bulk quantity support",
-      "Flexible packing coordination",
+      "Fertilizers and plant nutrients",
+      "Crop-protection products",
+      "Commercial quantity support",
       "Domestic and export enquiries",
     ],
+    bannerImage: "/images/product-banners/agricultural-products-banner.webp",
+    productImage: "/images/product-banners/agricultural-products-banner.webp",
+    bannerPosition: "center",
     icon: Wheat,
   },
   {
@@ -39,13 +42,16 @@ export const products = [
     description:
       "Quality food and beverage products prepared for domestic and international distribution.",
     details:
-      "Our food and beverage category is designed for buyers seeking reliable sourcing and commercial supply coordination across suitable packaged and ingredient-led products.",
+      "Our food and beverage category is designed for buyers seeking reliable sourcing and commercial supply coordination.",
     highlights: [
       "Wholesale requirements",
       "Product specification review",
       "Packaging coordination",
       "Market-focused sourcing",
     ],
+    bannerImage: "/images/product-banners/food-beverages-banner.webp",
+    productImage: "/images/product-banners/food-beverages-banner.webp",
+    bannerPosition: "center",
     icon: Coffee,
   },
   {
@@ -54,13 +60,16 @@ export const products = [
     description:
       "Aromatic whole and ground spices sourced for flavour, purity and reliable supply.",
     details:
-      "We support enquiries for Indian whole and ground spices, with product form, grade, packing, quantity and applicable documentation aligned to buyer requirements.",
+      "We support enquiries for Indian whole and ground spices, with product form, grade, packing and quantity aligned to buyer requirements.",
     highlights: [
       "Whole and ground options",
       "Quality-focused sourcing",
-      "Bulk and retail packing",
+      "Bulk and retail packaging",
       "Export enquiry support",
     ],
+    bannerImage: "/images/product-banners/spices-banner.webp",
+    productImage: "/images/product-banners/spices-banner.webp",
+    bannerPosition: "center",
     icon: Flower2,
   },
   {
@@ -69,13 +78,16 @@ export const products = [
     description:
       "Premium fox nuts graded for wholesale, retail packaging and export markets.",
     details:
-      "Makhana requirements can be coordinated by size, grade, raw or processed format, quantity and packaging for wholesale, private-label and export opportunities.",
+      "Makhana requirements can be coordinated by size, grade, raw or processed format, quantity and packaging.",
     highlights: [
       "Multiple grade enquiries",
       "Raw or processed formats",
       "Retail and bulk packaging",
       "Private-label coordination",
     ],
+    bannerImage: "/images/product-banners/makhana-banner.webp",
+    productImage: "/images/product-banners/makhana-banner.webp",
+    bannerPosition: "center",
     icon: Gem,
   },
   {
@@ -84,13 +96,16 @@ export const products = [
     description:
       "Staple grains and pulses procured from dependable agricultural supply networks.",
     details:
-      "We coordinate grain and pulse sourcing according to variety, grade, quantity, packing and destination-market requirements.",
+      "We coordinate grain and pulse sourcing according to variety, grade, quantity, packaging and destination-market requirements.",
     highlights: [
       "Variety-based sourcing",
       "Commercial quantities",
       "Packaging options",
       "Supply coordination",
     ],
+    bannerImage: "/images/product-banners/grains-pulses-banner.webp",
+    productImage: "/images/product-banners/grains-pulses-banner.webp",
+    bannerPosition: "center",
     icon: Salad,
   },
   {
@@ -99,13 +114,16 @@ export const products = [
     description:
       "Naturally inspired herbal products aligned with evolving wellness demand.",
     details:
-      "Our herbal category supports selected natural and wellness-oriented product enquiries, subject to final specification, availability and applicable compliance requirements.",
+      "Our herbal category supports selected natural and wellness-oriented product enquiries.",
     highlights: [
       "Requirement-led selection",
       "Ingredient specification review",
       "Packaging coordination",
       "Documentation support",
     ],
+    bannerImage: "/images/product-banners/herbal-products-banner.webp",
+    productImage: "/images/product-banners/herbal-products-banner.webp",
+    bannerPosition: "center",
     icon: Leaf,
   },
   {
@@ -114,13 +132,18 @@ export const products = [
     description:
       "Selected personal-care products suitable for modern retail and distribution channels.",
     details:
-      "We assist buyers with selected cosmetics and personal-care sourcing opportunities, including product, packaging and commercial requirement coordination.",
+      "We assist buyers with selected cosmetics and personal-care sourcing opportunities.",
     highlights: [
       "Selected product sourcing",
       "Retail-ready requirements",
       "Packaging discussion",
       "Buyer-focused coordination",
     ],
+    bannerImage:
+      "/images/product-banners/cosmetics-personal-care-banner.webp",
+      productImage:
+      "/images/product-banners/cosmetics-personal-care-banner.webp",
+    bannerPosition: "center",
     icon: Apple,
   },
   {
@@ -129,13 +152,16 @@ export const products = [
     description:
       "Product sourcing and packaging support shaped around buyer specifications.",
     details:
-      "If your required product is outside our listed categories, share a complete specification. We will review suitable sourcing and coordination possibilities.",
+      "If your required product is outside our listed categories, share a complete specification for review.",
     highlights: [
       "Custom requirement review",
       "Supplier coordination",
       "Specification matching",
       "Commercial feasibility check",
     ],
+    bannerImage: "/images/product-banners/custom-sourcing-banner.webp",
+    productImage: "/images/product-banners/custom-sourcing-banner.webp",
+    bannerPosition: "center",
     icon: PackageOpen,
   },
 ];
