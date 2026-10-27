@@ -170,7 +170,7 @@ export const contact = {
   phone: "+91-9454794200",
   email: "mizavaraglobal@gmail.com",
   address: "Mizavara Global Private Limited Dhanewa, Maharajganj 273303 Uttar Pradesh (UP) India",
-  formspreeEndpoint: "",
+  formspreeEndpoint: "https://formspree.io/f/mljjjvke",
 };
 export const socialLinks = [
   { name: "Facebook", href: "#" },
